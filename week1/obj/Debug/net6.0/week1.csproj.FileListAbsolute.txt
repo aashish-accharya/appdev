@@ -1,0 +1,15 @@
+D:\Islington\Year 3\Application Development\Codes\week1\obj\Debug\net6.0\week1.csproj.AssemblyReference.cache
+D:\Islington\Year 3\Application Development\Codes\week1\obj\Debug\net6.0\week1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Islington\Year 3\Application Development\Codes\week1\obj\Debug\net6.0\week1.AssemblyInfoInputs.cache
+D:\Islington\Year 3\Application Development\Codes\week1\obj\Debug\net6.0\week1.AssemblyInfo.cs
+D:\Islington\Year 3\Application Development\Codes\week1\obj\Debug\net6.0\week1.csproj.CoreCompileInputs.cache
+D:\Islington\Year 3\Application Development\Codes\week1\bin\Debug\net6.0\week1.exe
+D:\Islington\Year 3\Application Development\Codes\week1\bin\Debug\net6.0\week1.deps.json
+D:\Islington\Year 3\Application Development\Codes\week1\bin\Debug\net6.0\week1.runtimeconfig.json
+D:\Islington\Year 3\Application Development\Codes\week1\bin\Debug\net6.0\week1.dll
+D:\Islington\Year 3\Application Development\Codes\week1\bin\Debug\net6.0\week1.pdb
+D:\Islington\Year 3\Application Development\Codes\week1\obj\Debug\net6.0\week1.dll
+D:\Islington\Year 3\Application Development\Codes\week1\obj\Debug\net6.0\refint\week1.dll
+D:\Islington\Year 3\Application Development\Codes\week1\obj\Debug\net6.0\week1.pdb
+D:\Islington\Year 3\Application Development\Codes\week1\obj\Debug\net6.0\week1.genruntimeconfig.cache
+D:\Islington\Year 3\Application Development\Codes\week1\obj\Debug\net6.0\ref\week1.dll
