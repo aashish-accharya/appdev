@@ -1,0 +1,76 @@
+﻿@page "/employees"
+
+@using week6.Data;
+@using week6.Data.Model;
+@inject EmployeeService EmpService;
+
+
+<h1>Employee List</h1>
+
+<p>Fetching the list of employees.</p>
+
+@if (empList == null)
+{
+	<p><em>Loading...</em></p>
+}
+else
+{
+	<lable>Search:</lable>
+	<input @bind="search" @bind:event="oninput" class="form-control col-1"/>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Address</th>
+				<th>HireDate </th>
+			</tr>
+		</thead>
+		<tbody>
+			@if (_search==null) 
+			{
+				@foreach (var list in empList)
+				{
+					<tr>
+						<td>@list.Name</td>
+						<td>@list.Age</td>
+						<td>@list.Address</td>
+						<td>@list.HireDate.ToShortDateString()</td>
+					</tr>
+				}
+			}
+			else
+			{
+				string name = _search;
+				searchList = empList.Where(x => x.Name.ToLower().Contains(name)).ToList();
+				if (searchList.Count > 0)
+				{
+					foreach (var item in searchList)
+					{
+						<tr>
+							<td>@item.Name</td>
+							<td>@item.Age</td>
+							<td>@item.Address</td>
+							<td>@item.HireDate.ToShortDateString()</td>
+						</tr>
+					}
+				}
+			}
+		</tbody>
+	</table>
+}
+
+@code {
+	List<EmployeeModel> empList = EmployeeService.NewList();
+	List<EmployeeModel> searchList;
+	private string _search;
+	public string search
+	{
+		get { return _search; }
+		set
+		{
+			_search = value;
+		}
+	}
+}
+}
